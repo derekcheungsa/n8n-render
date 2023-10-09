@@ -30,7 +30,7 @@ services:
           name: n8nDB
           property: password
       - key: N8N_HOST
-        value : https://n8n-ipu1.onrender.com
+        value : n8n-ipu1.onrender.com
     disk:
       name: n8nDisk
       mountPath: /home/node/.n8n
