@@ -32,7 +32,7 @@ services:
       - key: N8N_HOST
         value : n8n-ipu1.onrender.com
       - key: WEBHOOK_URL
-        value : n8n-ipu1.onrender.com
+        value : https://n8n-ipu1.onrender.com
     disk:
       name: n8nDisk
       mountPath: /home/node/.n8n
