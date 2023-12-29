@@ -30,9 +30,9 @@ services:
           name: n8nDB
           property: password
       - key: N8N_HOST
-        value : n8n-ipu1.onrender.com
+        value : n8n-8wg9.onrender.com
       - key: WEBHOOK_URL
-        value : https://n8n-ipu1.onrender.com
+        value : https://n8n-8wg9.onrender.com
     disk:
       name: n8nDisk
       mountPath: /home/node/.n8n
