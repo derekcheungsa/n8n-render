@@ -30,7 +30,7 @@ services:
           name: n8nDB
           property: password
       - key: N8N_HOST
-        value : n8n-8wg9.onrender.com
+        value : host
       - key: WEBHOOK_URL
         value : https://n8n-8wg9.onrender.com
     disk:
