@@ -33,10 +33,7 @@ services:
         value : n8n-8wg9.onrender.com
       - key: WEBHOOK_URL
         value : https://n8n-8wg9.onrender.com
-    disk:
-      name: n8nDisk
-      mountPath: /home/node/.n8n
-      sizeGB: 10
+
 
 databases:
   - name: n8nDB
