@@ -31,8 +31,8 @@ services:
           property: password
       - key: N8N_HOST
         value: n8n-l40j.onrender.com
-      - key: N8N_WEBHOOK
-        value: https://n8n-l40j.onrender.com/
+      - key: N8N_PORT
+        value: 443
     disk:
       name: n8nDisk
       mountPath: /home/node/.n8n
