@@ -30,7 +30,7 @@ services:
           name: n8nDB
           property: password
       - key: N8N_HOST
-        value: host
+        value: n8n-6ae8.onrender.com
     disk:
       name: n8nDisk
       mountPath: /home/node/.n8n
